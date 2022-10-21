@@ -1,1 +1,11 @@
 size(600,600);
+fill(255, 0, 0, 100);
+ellipse(225, 150, 225, 225); 
+fill(0, 255, 0, 100);
+ellipse(375, 150, 225, 225); 
+fill(0, 0, 255, 100);
+ellipse(300, 275, 225, 225); 
+textSize(16);
+text("Table Tennis", 150, 150);
+text("Math", 360, 150);
+text("Reading", 265, 320);
