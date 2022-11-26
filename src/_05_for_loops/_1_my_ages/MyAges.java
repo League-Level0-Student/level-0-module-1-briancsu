@@ -17,8 +17,10 @@ public class MyAges {
 		
 		//  WHILE LOOP. Start a while loop to repeat while age <= yourCurrentAge
 				while (age<=yourCurrentAge) {
-				JOptionPane.showMessageDialog(null, age);
-				age+=1;
+					
+					System.out.println(age);
+					age+=1;
+					
 				}
 			//  Print the age variable
 		
@@ -32,7 +34,10 @@ public class MyAges {
 		 *   Notice how most of the information is the same, it is just written 
 		 *   in a different way.
 		 **/
-		
+				 for ( age=0; age <= yourCurrentAge; age +=1 ) {
+					 System.out.println(age);
+				}
+					
 		//  FOR LOOP. Start a for loop to repeat while age <= your age, like this:
 		//  for ( age=0; age <= yourAge; age +=1 ) {
 		
